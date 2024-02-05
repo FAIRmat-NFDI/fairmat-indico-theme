@@ -1,0 +1,12 @@
+{% extends "~header.html" %}
+
+{% block logo %}
+<a id="header-logo"
+   href="{{ url_for_index() }}"
+   aria-label="{% trans %}Fairmat events main page{% endtrans %}"
+   aria-current="{{ url_for_index() == request.path }}"
+>
+    <img class="header-logo" src="{{ url_for_plugin('themes_fairmat.static', filename='images/fairmat_logo_with_text.svg') }}" alt="{% trans %}Fairmat logo{% endtrans %}">
+</a>
+{% endblock %}
+

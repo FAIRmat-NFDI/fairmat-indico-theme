@@ -1,0 +1,68 @@
+
+.page-header {
+  background-color: #ffffff !important;
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+}
+
+.global-menu {
+  background-color: #cc0000 !important;
+}
+
+.global-menu a {
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.category-header {
+  background-color: #f4f4f4 !important;
+}
+
+.category-title{
+  color: #cc0000 !important;
+}
+
+.event-list div h4 {
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+  font-weight: 500 !important;
+  color: #1d1d1d !important;
+  border-bottom-color: #cc0000 !important;
+}
+
+.current-month {
+  border-bottom-color: #cc0000 !important;
+}
+
+.event-list h4.current-month span {
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  color: #ff0000 !important;
+  background: none !important;
+  border: none !important;
+}
+
+.event-title a {
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+  color: #ff0000 !important;
+}
+
+.date {
+  font-family: 'Titillium Web', 'Roboto', sans-serif !important;
+  font-size: 14px !important;
+  color: #1d1d1d !important;
+}
+
+.ui.label.mini.blue {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+
+.info-message-box {
+  color: #5a0101;
+  background-color: #fbdddd;
+  border: 1px solid #cc0000;
+}
+.info-message-box a {
+  color: #cc0000;
+}

@@ -1,0 +1,4 @@
+graft indico_themes_fairmat/static
+graft indico_themes_fairmat/templates
+
+global-exclude *.pyc __pycache__ .keep
