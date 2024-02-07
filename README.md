@@ -9,7 +9,7 @@ This repository holds the Indico plugins used for the Fairmat event management s
 - [x] adding template hook to inject glaobe css changes
 - [ ] using inject_bundle function for global changes (this would be a slightly nicer solution)
 
-## Soucrces of information:
+## Sources of information:
 - https://cds.cern.ch/search?f=490__a&p=Indico%20Workshop%203.5
 - https://github.com/indico/indico-plugin-example
 - https://github.com/canonical/canonical-indico-themes
