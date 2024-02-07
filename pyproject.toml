@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indico-plugin-themes-fairmat"
+version = "2024.1.0"
+requires-python = ">=3.9"
+dependencies = [
+  "indico>=3.0"
+]
+authors = [
+  {name = "Fekete Adam", email = "adam@fekete.co.uk"}
+]
+description = "This package is an Indico plugin used for the Fairmat event management system."
+readme = "README.md"
+license = {text = "Apache 2.0"}
+keywords = ["indico", "theme"]
+classifiers = [
+    "Environment :: Plugins",
+    "Environment :: Web Environment",
+    "License :: OSI Approved :: Apache 2.0",
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/FAIRmat-NFDI/fairmat-indico-theme"
+Repository = "https://github.com/FAIRmat-NFDI/fairmat-indico-theme.git"
+
+[project.entry-points."indico.plugins"]
+themes_fairmat = "indico_themes_fairmat.plugin:FairmatThemesPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
