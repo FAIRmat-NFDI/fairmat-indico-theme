@@ -62,11 +62,22 @@
   border-color: #ff0000 !important;
 }
 
+.highlight-message-box {
+  color: #5a0101;
+  background-color: #fbdddd;
+  border: 1px solid #cc0000;
+}
+
+.highlight-message-box a {
+  color: #cc0000;
+}
+
 .info-message-box {
   color: #5a0101;
   background-color: #fbdddd;
   border: 1px solid #cc0000;
 }
+
 .info-message-box a {
   color: #cc0000;
 }
