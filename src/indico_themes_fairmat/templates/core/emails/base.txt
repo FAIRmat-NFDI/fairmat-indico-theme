@@ -1,3 +1,14 @@
-{% extends '~emails/base.txt' %}
+{% macro get_subject() -%}
+    {% block subject_prefix %}[FAIRmat]{% endblock %} {% block subject %}{% endblock %}
+{%- endmacro %}
 
-{% block subject_prefix %}[FAIRmat]{% endblock %}
+{% macro get_body(footer) %}
+    {%- block header %}{% block header_recipient %}{% endblock %},
+
+{% endblock -%}
+{% block body -%}{%- endblock %}
+
+--
+FAIRmat :: {% block footer_title %}Email Notifier{% endblock %}
+{% block footer_url %}{{ url_for_index(_external=true) }}{% endblock %}
+{% endmacro %}
